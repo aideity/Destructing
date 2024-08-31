@@ -8,7 +8,6 @@ let unifiedCollectibles = [...doc.HotToys, ...doc.Bandai, ...doc.StarWars];
 let collectibles = {
     figura: unifiedCollectibles,
 
-    // Método para listar todas las figuras
     listFigures: function() {
         this.figura.forEach(function(figura, index) {
             console.log(`${index + 1}.- ${figura.nombre}`); 
@@ -33,5 +32,5 @@ console.log("Figuras de la marca 'Bandai':");
 console.log(collectibles.figuresByBrand('Bandai'));
 
 console.log("Figuras de la marca 'StarWars':");
-let starWarsFigures = collectibles.figuresByBrand('StarWars');
+let starWarsFigures = collectibles.figuresByBrand('StarWars'); // no me tira bien este
 console.log(starWarsFigures);
