@@ -31,6 +31,6 @@ console.log(collectibles.figuresByBrand('HotToys'));
 console.log("Figuras de la marca 'Bandai':");
 console.log(collectibles.figuresByBrand('Bandai'));
 
-console.log("Figuras de la marca 'StarWars':");
-let starWarsFigures = collectibles.figuresByBrand('StarWars'); // no me tira bien este
+console.log("Figuras de la marca 'Star Wars':"); 
+let starWarsFigures = collectibles.figuresByBrand('Star Wars'); 
 console.log(starWarsFigures);
